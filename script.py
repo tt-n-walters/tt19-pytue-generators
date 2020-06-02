@@ -11,6 +11,15 @@ def lazy_function(maximum):
         yield i    # pauses the function and sets the output
 
 
+print(eager_function(10))
+generator = lazy_function(10)
+
+for x in generator:
+    print(x)
+
+
+
+
 
 # total = sum(lazy_function(200000000))
 # print(total)
