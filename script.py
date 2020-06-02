@@ -4,3 +4,6 @@ def my_function():
         numbers.append(i)
     return numbers
 
+
+total = sum(my_function())
+print(total)
